@@ -2,16 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>lista de Frutas</title>
+    <title>Lista de Frutas </title>
   </head>
   <body>
     <img src="frutas-2.jpg" width="1000" height="300"><br/>
-    <h1>Frutas Master</h1>
-    <p>Es una empresa familiar de tercera generación que se dedica a la compra, venta y distribucion de frutas al por mayor <br/>
+    <h1>LISTA DE FRUTAS</h1>
+    <p><strong>Frutas Master </strong>Es una empresa familiar de tercera generación que se dedica a la compra, venta y distribucion de frutas al por mayor <br/>
     En la actualidad, somos la empresa lider en el servicio  de distribución de frutas</p>
+    <h3>Contenido:</h3>
 
-    <input type="text" name="" value="" id="ingresarFruta">
-    <button type="button" name="button" onclick="agregarFruta()">Agregar Fruta</button>
+    <ol id="escribir">
+    </ol>
+
+    <input type="text" name="" value="Ingresa la fruta" id="ingresarFruta" onclick="this.value=''";>
+    <button type="button" name="button" onclick="agregarFruta();">Agregar Fruta</button>
+
     <script type="text/javascript" src="assets/js/javascript.js"> </script>
   </body>
 </html>
